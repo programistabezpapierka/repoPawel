@@ -1,6 +1,6 @@
 package ticket.machine;
 
-import ticket.machine.moneyInsert;
+
 import java.util.*;
 public class Main {
 
@@ -21,24 +21,56 @@ public class Main {
         mapa.put(3, ticket3.price); // K = id 2, V = cena biletu drugiego
         mapa.put(4, ticket4.price); // K = id 2, V = cena biletu drugiego
         System.out.println(mapa); // drukowanie mapy
-        mapa.get(1);
 
-        Scanner buttonChoose = new Scanner(System.in);
-        System.out.println("Wybierz bilet:");
-        int button;
-        button = buttonChoose.nextInt();
 
-        if(button == 1){
-            System.out.println(ticket1.kind + ": " + mapa.get(1));
-        }
-        if(button == 2){
-            System.out.println(ticket2.kind + ": " + mapa.get(2));
-        }
-        if(button == 3){
-            System.out.println(ticket3.kind + ": " + mapa.get(3) );
-        }
-        if(button == 4){
-            System.out.println(ticket4.kind + ": " + mapa.get(4));
+        TickSel biletuWybor = new TickSel();
+        biletuWybor.ticketSelect();
+        moneyInsert monIns = new moneyInsert();
+
+        switch(biletuWybor.buttonId){
+            case(1):
+                System.out.println("Rodzaj biletu: " + ticket1.kind);
+                System.out.println("Cena: " + mapa.get(1));
+                monIns.moneyInput();
+                MoneyCalc m1 = new MoneyCalc();
+                m1.ticketCost = mapa.get(1);
+                m1.moneyValue = monIns.value;
+                m1.calkulation();
+                break;
+
+                case(2):
+                System.out.println("Rodzaj biletu: " + ticket2.kind);
+                System.out.println("Cena: " + mapa.get(2));
+                monIns.moneyInput();
+                MoneyCalc m2 = new MoneyCalc();
+                m2.ticketCost = mapa.get(2);
+                m2.moneyValue = monIns.value;
+                m2.calkulation();
+                break;
+
+                case(3):
+                System.out.println("Rodzaj biletu: " + ticket3.kind);
+                System.out.println("Cena: " + mapa.get(3));
+                monIns.moneyInput();
+                MoneyCalc m3 = new MoneyCalc();
+                m3.ticketCost = mapa.get(3);
+                m3.moneyValue = monIns.value;
+                m3.calkulation();
+                break;
+
+                case(4):
+                System.out.println("Rodzaj biletu: " + ticket4.kind);
+                System.out.println("Cena: " + mapa.get(4));
+                monIns.moneyInput();
+                MoneyCalc m4 = new MoneyCalc();
+                m4.ticketCost = mapa.get(4);
+                m4.moneyValue = monIns.value;
+                m4.calkulation();
+
+                break;
+
+                default:
+                System.out.println("Nie wybrano żadnego biletu");
         }
     }
 }

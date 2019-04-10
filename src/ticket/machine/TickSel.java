@@ -3,9 +3,10 @@ import java.util.Scanner;
 public class TickSel {
     int buttonId;
 
-    void ticketSelect(){
+    public void ticketSelect(){
         Scanner buttonChoose = new Scanner(System.in);
         System.out.println("Wybierz bilet");
         this.buttonId = buttonChoose.nextInt();
+
     }
 }
