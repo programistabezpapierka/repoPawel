@@ -25,7 +25,7 @@ public class Main {
 
         TickSel biletuWybor = new TickSel();
         biletuWybor.ticketSelect();
-        moneyInsert monIns = new moneyInsert();
+        MoneyInsert monIns = new MoneyInsert();
 
         switch(biletuWybor.buttonId){
             case(1):
