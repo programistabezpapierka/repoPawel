@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aeac10ce-5534-4bfd-9761-cded859a0b3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicketMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/TicketMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repoPawel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/repoPawel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ticket/machine/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ticket/machine/MoneyCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ticket/machine/MoneyCalc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ticket/machine/MoneyInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ticket/machine/MoneyInsert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ticket/machine/TickSel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ticket/machine/TickSel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ticket/machine/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ticket/machine/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,11 +66,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ticket/machine/MoneyCalc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="42" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="42" />
+            <state relative-caret-position="238">
+              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -110,12 +108,13 @@
         <option value="$PROJECT_DIR$/src/ticket/machine/Ticket.java" />
         <option value="$PROJECT_DIR$/src/ticket/machine/TicketMachine.java" />
         <option value="$PROJECT_DIR$/src/ticket/machine/MoneyCalc.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3" />
-    <option name="y" value="53" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="279" />
+    <option name="y" value="17" />
     <option name="width" value="1340" />
     <option name="height" value="688" />
   </component>
@@ -206,9 +205,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <frame x="279" y="17" width="1340" height="688" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24696049" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25390625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -218,7 +218,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36216217" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -295,13 +295,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ticket/machine/TicketMachineApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ticket/machine/TicketMachine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -335,8 +328,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ticket/machine/MoneyCalc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="42" />
+        <state relative-caret-position="238">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ticket/machine/TicketMachineApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
