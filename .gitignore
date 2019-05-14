@@ -1,4 +1,7 @@
 file_to_ignore
+
+repoPawel.iml
+out
 # JetBrains templates
 **___jb_tmp___
 
@@ -39,6 +42,4 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/windows,intellij
- 
-
 
