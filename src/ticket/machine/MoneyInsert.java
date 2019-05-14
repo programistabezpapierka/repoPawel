@@ -1,11 +1,11 @@
 package ticket.machine;
 import java.util.Scanner;
 
-public class MoneyInsert {
+class MoneyInsert {
     double value;
 
 
-    public void moneyInput(){
+     void moneyInput(){
         Scanner inputValue = new Scanner(System.in);
         System.out.println("Wrzuć monety");
         this.value = inputValue.nextDouble();

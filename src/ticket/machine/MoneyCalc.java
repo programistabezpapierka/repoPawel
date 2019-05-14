@@ -1,6 +1,6 @@
 package ticket.machine;
 import java.util.Scanner;
-public class MoneyCalc {
+class MoneyCalc {
 
     double ticketCost; // cena biletu
     double moneyValue; // wartość wpłacana
@@ -8,7 +8,7 @@ public class MoneyCalc {
 
 // Metoda drukowania biletu, włącznie z obliczeniem wydawanej reszty lub kwoty, którą należy dopłacić.
 
-    public void calkulation(){
+  void calkulation(){
         if(this.ticketCost > this.moneyValue){
             this.roznica = this.ticketCost - this.moneyValue;
             System.out.println("Dopłać" + " " + this.roznica);

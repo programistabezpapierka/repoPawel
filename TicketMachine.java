@@ -17,11 +17,7 @@ public class TicketMachine {
      */
     
     public static void main(String[] args) {
-
-
-
-
-      moneyInsert value = new moneyInsert();
+        moneyInsert value = new moneyInsert();
         System.out.println("Podaj wartość");
         value.mon();
         System.out.println("wartość" + " " + value.value);
