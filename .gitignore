@@ -116,6 +116,5 @@ hs_err_pid*
 # End of https://www.gitignore.io/api/java,intellij+all 
 
 out/
-1.txt
-TicketMachine
+.idea/
 
